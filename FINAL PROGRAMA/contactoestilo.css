@@ -1,0 +1,33 @@
+body, html {
+    height: 100%;
+    background: linear-gradient(to right, #3698e9, #f6e480);
+}
+
+.cuadro1 {
+    position: center;
+    border: 4px solid #71ff71;
+    padding-top: 1px;
+    padding-right: 300px;
+    padding-left: 20px;
+    padding-bottom: 150px;
+    background-color: #e6e6e6;
+    width: 100px;
+    height: 50px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+    vertical-align: top;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 10px;
+    position: absolute;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+}
+
+.cuadro1, p {
+    word-wrap: break-word;
+    white-space: nowrap; 
+}
